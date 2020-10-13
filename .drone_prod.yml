@@ -44,9 +44,6 @@ steps:
     - main
     event:
       - push
-trigger:
-  branch:
-  - main
 ---
 kind: pipeline
 type: kubernetes
@@ -92,6 +89,3 @@ steps:
     - main
     event:
       - push
-trigger:
-  branch:
-  - main
